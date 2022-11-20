@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
         - name: httpserver
-          image: registry.cn-hangzhou.aliyuncs.com/jjnnzb/httpserver:0.0.1
+          image: registry.cn-beijing.aliyuncs.com/chchang_docker/ccdocker:0.0.1 
           imagePullPolicy: IfNotPresent
           # 资源需求和 QoS 保证
           resources:
